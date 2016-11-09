@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bạn cần xem thông tin \nngười bạn mà bạn đang theo dõi :"/>
+    <TextView
+        android:id="@+id/txtSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Xem tin nhắn"
+        android:padding="10dp"
+        android:background="@drawable/bg_textview"/>
+    <TextView
+        android:id="@+id/txtCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Xem nhật ký cuộc gọi"
+        android:padding="10dp"
+        android:background="@drawable/bg_textview"/>
+</LinearLayout>
